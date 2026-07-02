@@ -66,6 +66,7 @@
   #define HRM_K    H_K K
   #define HRM_L    H_L L
   #define HRM_SEMI H_SEMI SEMI
+  #define HRM_SHTAB &hrm CTL_CMD RS(TAB)
 #else
   #define HRM_A    &kp A
   #define HRM_S    &kp S
@@ -75,6 +76,7 @@
   #define HRM_K    &kp K
   #define HRM_L    &kp L
   #define HRM_SEMI &kp SEMI
+  #define HRM_SHTAB &kp RS(TAB)
 #endif
 
 
