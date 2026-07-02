@@ -34,7 +34,7 @@
 #define S_GRAVE &kp RA(P)
 
 // second row
-#define S_LBRC  &kp RA(Q)
+#define S_LBRC  &kp RA(A)
 #define S_LPAR  &kp RA(S)
 #define S_RPAR  &kp RA(D)
 #define S_RBRC  &kp RA(F)
@@ -43,10 +43,10 @@
 #define S_PLUS  &kp RA(J)
 #define S_MINUS &kp RA(K)
 #define S_FSLH  &kp RA(L)
-#define S_DQT   &kp RA(COLON)
+#define S_DQT   &kp DQT
 
 // third row
-#define S_TILDE &kp RA(W)
+#define S_TILDE &kp TILDE
 #define S_LBKT  &kp RA(X)
 #define S_RBKT  &kp RA(C)
 #define S_UNDER &kp RA(V)
@@ -54,8 +54,8 @@
 #define S_PIPE  &kp RA(N)
 #define S_EXCL  &kp RA(COMMA)
 #define S_SEMI  &kp RA(SEMI)
-#define S_COLON &kp RA(COLON)
-#define S_QMARK &kp RA(EXCL)
+#define S_COLON &kp COLON
+#define S_QMARK &kp LS(EXCL)
 
 // extra
 #define S_COMMA &kp COMMA
