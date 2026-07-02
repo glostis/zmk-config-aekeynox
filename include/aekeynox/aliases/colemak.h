@@ -55,7 +55,7 @@
 #define S_EXCL  &kp RA(M)
 #define S_SEMI  &kp LS(COMMA)
 #define S_COLON &kp LS(DOT)
-#define S_QMARK &kp LS(FLSH)
+#define S_QMARK &kp LS(FSLH)
 
 // extra
 #define S_COMMA &kp COMMA
