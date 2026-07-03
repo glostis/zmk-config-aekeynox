@@ -46,16 +46,16 @@
 #define S_DQT   &kp DQT
 
 // third row
-#define S_TILDE &kp TILDE
+#define S_TILDE &kp RA(Z)
 #define S_LBKT  &kp RA(X)
 #define S_RBKT  &kp RA(C)
 #define S_UNDER &kp RA(V)
 #define S_HASH  &kp RA(B)
 #define S_PIPE  &kp RA(N)
-#define S_EXCL  &kp RA(COMMA)
+#define S_EXCL  &kp RA(M)
 #define S_SEMI  &kp RA(SEMI)
-#define S_COLON &kp COLON
-#define S_QMARK &kp LS(EXCL)
+#define S_COLON &kp RA(PERIOD)
+#define S_QMARK &kp RA(FSLH)
 
 // extra
 #define S_COMMA &kp COMMA
