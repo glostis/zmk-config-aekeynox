@@ -120,7 +120,7 @@ include:
   - board: quacken_flex/rp2040
     artifact-name: quacken_flex
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y
 
   # # Ferris (STM32F072)
   # # Note: not enough memory for ZMK Studio
