@@ -2,6 +2,7 @@
 // https://github.com/OneDeadKey/selenium
 
 #include <dt-bindings/zmk/bt.h> // bluetooth behaviors (see fn/media layer)
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 #include <dt-bindings/zmk/pointing.h> // mouse keys (see vimnav layer)
 
 #ifndef CI_IGNORE_USER_SETTINGS
