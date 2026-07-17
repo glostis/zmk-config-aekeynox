@@ -1,0 +1,6 @@
+include:
+  # Quacken Flex (RP2040)
+  - board: quacken_flex/rp2040
+    artifact-name: quacken_flex
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y
