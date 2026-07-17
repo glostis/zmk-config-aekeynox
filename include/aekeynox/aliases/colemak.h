@@ -53,7 +53,7 @@
 #define S_HASH  &kp RA(B)
 #define S_PIPE  &kp RA(N)
 #define S_EXCL  &kp RA(M)
-#define S_SEMI  &kp RA(SEMI)
+#define S_SEMI  &kp RA(COMMA)
 #define S_COLON &kp RA(PERIOD)
 #define S_QMARK &kp RA(FSLH)
 
