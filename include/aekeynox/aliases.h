@@ -15,7 +15,8 @@
   #define X_PREV &kp LA(LEFT)
   #define X_NEXT &kp LA(RIGHT)
 #endif
-#define X_SHTAB &kp RS(TAB)
+// #define X_SHTAB &kp RS(TAB)
+#define X_SHTAB &H2 RS(TAB)
 
 // Mouse Actions
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25  // default=10 (too slow)

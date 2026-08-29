@@ -13,7 +13,8 @@
 
 #define X_CTL_W &kp LC(T)
 #define X_SAVE  &kp CMD(S)
-#define X_ALL   &kp CMD(A)
+// #define X_ALL   &kp CMD(A)
+#define X_ALL   &H4 CMD(A)
 
 /**
  * Arsenik Symbols:
